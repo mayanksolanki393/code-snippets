@@ -1,5 +1,5 @@
 ```java
-public class MainClass{
+class MainClass{
     private HelpingClass helperObject = new HelpingClass();
     
     public static void main(String args[]){
@@ -8,7 +8,7 @@ public class MainClass{
     }
 }
 
-public class HelpingClass{
+class HelpingClass{
     public void helpingMethod(){
         //helping reusable logic
     }
